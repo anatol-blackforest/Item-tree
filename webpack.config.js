@@ -1,10 +1,10 @@
 module.exports = {
-  context: __dirname + "/start",
+  context: __dirname + "/src",
   entry: {
     app: ["angular", "./data.js", "./module.js","./main-controller.js","./add-controller.js"],
   },
   output: {
-    path: __dirname + "/final",
+    path: __dirname + "/build",
     filename: "index.js",
   },
   module: {
