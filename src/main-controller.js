@@ -1,7 +1,6 @@
-﻿//file 2 start
+//file 2 start
 let myLifeApp = require('./module'); 
 myLifeApp.controller('daybookCtrl', function($scope) {
-	$scope.groupID = 0;
 	$scope.data = require('./data');
 	
 	$scope.open = function(e, id){
